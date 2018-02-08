@@ -154,10 +154,10 @@ class LabelTool():
         self.imageDir = os.path.join(r'./Images', '%03d' %(self.category))
         #print self.imageDir 
         #print self.category
-        self.imageList = glob.glob(os.path.join(self.imageDir, '*.JPG'))
+        self.imageList = glob.glob(os.path.join(self.imageDir, '*.JPEG'))
         #print self.imageList
         if len(self.imageList) == 0:
-            print('No .JPG images found in the specified dir!')
+            print('No .JPEG images found in the specified dir!')
             return
 
         # default to the 1st image in the collection
@@ -175,7 +175,7 @@ class LabelTool():
         print(os.path.exists(self.egDir))
         if not os.path.exists(self.egDir):
             return
-        filelist = glob.glob(os.path.join(self.egDir, '*.JPG'))
+        filelist = glob.glob(os.path.join(self.egDir, '*.JPEG'))
         self.tmp = []
         self.egList = []
         random.shuffle(filelist)

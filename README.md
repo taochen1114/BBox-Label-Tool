@@ -4,7 +4,7 @@
 1. Add multi-class support 
 2. Change some of the color-candidates for better display
 3. Fix the 'Example' filepath for convenience
-4. Change the image format from '.JPEG' to '.JPG'
+4. Change the image format from '.JPG' to '.JPEG'
 
 ## New Usage
 ### For multi-class task, modify 'class.txt' with your own class-candidates and before labeling bbox, choose the 'Current Class' in the Combobox and make sure you click 'ComfirmClass' button.
