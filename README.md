@@ -36,12 +36,11 @@ LabelTool
 
 Dependency
 ----------
-python 2.7 win 32bit
-PIL-1.1.7.win32-py2.7
+python3.6 PIL 4.3.0
 
 Startup
 -------
-$ python main.py
+$ python3 main.py
 
 Usage
 -----
