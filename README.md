@@ -1,5 +1,6 @@
 ### Forked from [puzzledqs/BBox-Label-Tool](https://github.com/puzzledqs/BBox-Label-Tool)
 ## Improvements
+0. change to python3 version
 1. Add multi-class support 
 2. Change some of the color-candidates for better display
 3. Fix the 'Example' filepath for convenience
